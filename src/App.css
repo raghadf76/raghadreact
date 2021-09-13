@@ -3,6 +3,7 @@
 
 .App {
   text-align: center;
+  background-color: #122A47;
 }
 
 .App-logo {
@@ -28,6 +29,7 @@
   color: white;
   font-family: Tajwal-Regular;
   text-align: center;
+  padding-top: 1rem;
 
 }
 
@@ -61,16 +63,141 @@
 }
 
 .fixed-bottom{
-  
-  margin-top: 0rem;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  background-color: #a749a2;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* margin-top: 0rem;
   padding: 0;
   background-color: rgb(235, 195, 64);
  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 100%; */
   /* position: fixed; */
+}
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
+}
+
+
+
+.listCard1{
+  background-color: #01152e73;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1%;
+ 
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 16px;
+  opacity: 10;
+
+
+ 
+
+}
+
+
+.listCard2{
+
+ 
+  background-color: #01152e73;
+  /* justify-content: center; */
+  /* align-items: center; */
+margin-top: 10%;
+margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1%;
+ 
+  box-shadow: 0px 0px 10px #00000029;
+  border-radius: 16px;
+  opacity: 10;
+
+
+ 
+
+}
+
+.cardTitle{
+  align-items: right;
+  justify-content: flex-end;
+  display: 'flex';
+  font-family: Tajwal-Bold;
+  text-align: right;
+  color: white;
+  font-size: calc(20px + 1vmin);
+}
+
+.col-md-4{
+  /* margin-left: 0.5%;
+  margin-right: 0.5%; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.row{
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+opacity: 10;
+font-family: Tajwal-Regular;
+}
+
+.content{
+  background-color: #122A47;
+}
+.card1{
+  box-shadow: 0px 3px 30px #2A86961A;
+
+border-radius: 10px;
+
+
+opacity: 1;
+background-color: #01152E;
+border-color: red;  /* sets the border color to red */
+border: 3px solid;
+}
+.transparentCard{
+
+  box-shadow: 0px 3px 30px #2A86961A;
+  border: #6f1a5a;
+  border-radius: 10px;
+  opacity: 0.5;
+  background-color: #01152E;
+}
+
+.text-on-image {
+  bottom: 40%;
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  color: white;
+  font-family: Tajwal-Bold;
+  font-size: calc(30px + 1vmin);
+  opacity: 10;
+  z-index: 3;
+
+}
+
+
+.cardBody{
+  background-color: #01152E;
+  color: white;
 }
 
 

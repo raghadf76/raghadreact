@@ -1,0 +1,12 @@
+.main-footer {
+    color: white;
+    background-color: #031C3B;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    /* position: relative; */
+    
+    bottom: 0;
+    width: 100%;
+    font-family: Tajwal-Regular;
+    align-items: center;
+  }
