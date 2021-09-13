@@ -1,3 +1,6 @@
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Tajwal-Regular';
+  src: local('Tajwal'), url(./fonts/Tajawal-Regular.ttf) format('truetype');
+
+
+}
+
+@font-face {
+
+
+  font-family: 'Tajwal-Bold';
+  src: local('Tajwal-Bold'), url(./fonts/Tajawal-Bold.ttf) format('truetype');
 }

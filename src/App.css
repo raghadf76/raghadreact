@@ -1,3 +1,6 @@
+
+
+
 .App {
   text-align: center;
 }
@@ -9,12 +12,28 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* animation: App-logo-spin infinite 20s linear; */
   }
 }
 
+.title{
+  color: white;
+  font-family: Tajwal-Bold;
+  text-align: center;
+  font-size: calc(30px + 2vmin);
+
+}
+
+.secondtitle{
+  color: white;
+  font-family: Tajwal-Regular;
+  text-align: center;
+
+}
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: #122A47;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +46,33 @@
 .App-link {
   color: #61dafb;
 }
+
+
+.footerDesign{
+  background-color: #a749a2;
+  font-family: Tajwal-Regular;
+
+  
+}
+
+.col-lg-12{
+
+  font-family: Tajwal-Regular;
+}
+
+.fixed-bottom{
+  
+  margin-top: 0rem;
+  padding: 0;
+  background-color: rgb(235, 195, 64);
+ top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  /* position: fixed; */
+}
+
 
 @keyframes App-logo-spin {
   from {
